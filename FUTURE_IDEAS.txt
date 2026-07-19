@@ -1,0 +1,90 @@
+Flatland — Future Ideas
+========================
+Inspired by Carl Sagan's Cosmos and Edwin Abbott's Flatland
+
+Deepen the Core Lesson
+----------------------
+
+Live Geometry Readout
+
+  Show what Flatlanders actually measure: number of sides, area, perimeter,
+  "appeared from nowhere" events. For a sphere: r = sqrt(R^2 - h^2). That
+  turns it from a demo into a math lab.
+
+
+Make It More Interactive
+------------------------
+
+Scrubbable Timeline
+  Record a pass-through and scrub back and forth. Great for classrooms:
+  freeze the moment the apparition is a point, a circle, a square, etc.
+
+Inhabitant Perspectives
+  Tap a square or triangle and get a popup in their voice:
+  "I saw a thing appear, grow, and vanish. It could not have been real."
+  That brings in Abbott's original story, not just Sagan's physics demo.
+
+"Explain This" Overlays
+  Optional labels in the 3D view: vertex, edge, face, slice plane, hidden
+  dimension. Toggle for beginners vs. advanced users.
+
+
+Story and Atmosphere
+--------------------
+
+Voice Narration
+  A calm Cosmos-style voiceover synced to the demo would make it feel much
+  more like Sagan's original segment.
+
+Presentation Mode
+  Fullscreen, large text, auto-advancing demo, no controls — basically a
+  museum/kiosk version.
+
+
+Visual Upgrades
+---------------
+
+Ghost Projection
+  Show the full 3D object faintly below/above the plane so users see both
+  the solid and the slice at once.
+
+Comparison Inset
+  Small inset: "3D truth" vs. "2D perception" with matching highlights.
+
+Custom Slice Styles
+  Wireframe apparition, heatmap by "time visible," or pulsing edges when
+  the shape first pierces the plane.
+
+
+Platform-Specific (especially for the Swift app)
+------------------------------------------------
+
+visionOS / iOS
+  Put Flatland on a real table in AR: shape descends through a physical plane
+  on the desk. Very memorable.
+
+Mac Polish
+  Keyboard shortcuts (Space = play demo, arrows = height), menu bar, Touch Bar
+  height scrubber, export screenshot/video.
+
+Accessibility
+  VoiceOver descriptions like: "A circle of radius 0.8 has appeared at the
+  center of Flatland."
+
+
+Stretch Ideas
+-------------
+
+  - Puzzle mode: "What 3D shape produced this 2D shadow?"
+  - User-drawn 2D shapes → app guesses possible 3D sources
+  - Hypercube net unfolding animation
+  - Classroom worksheet export (PDF with questions)
+  - Cosmos chapter card with timestamp/reference to the original episode
+
+
+Top Three High-Impact Additions
+-------------------------------
+
+  1. 4D hypercube mode — best intellectual payoff
+  2. Guided chapters + scrubbable timeline — best for teaching
+  3. Inhabitant tap-to-react — best for engagement/story

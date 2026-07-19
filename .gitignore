@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode / Swift
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Keep shared schemes; ignore user-specific project data
+Flatland.xcodeproj/project.xcworkspace/xcuserdata/
+Flatland.xcodeproj/xcuserdata/
+
+# Built app (produced by ./rebuild.sh)
+Flatland.app/
+*.app/
+
+# Swift Package Manager (if added later)
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage (if added later)
+Pods/
+Carthage/Build/
+
+# Python tooling (icon generator venv)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+.cursor/
+
+# Archives & temp
+*.zip
+*.tar.gz
+*.log
+*.tmp
+.cache/
